@@ -11,11 +11,16 @@ import {
   Project,
   WorkExperience,
   aboutYou,
-  marketingHeadlines,
   projects,
   skills,
   workExperiences,
 } from "@/lib/data";
+
+const marketingHeadlines: { mainHeadline: string; subHeadline?: string } = {
+  mainHeadline: "Your Main Headline",
+  subHeadline: "Your Subheadline",
+};
+
 
 export default function Home() {
   return (
