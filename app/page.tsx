@@ -16,10 +16,6 @@ import {
   workExperiences,
 } from "@/lib/data";
 
-const marketingHeadlines: { mainHeadline: string; subHeadline?: string } = {
-  mainHeadline: "Your Main Headline",
-  subHeadline: "Your Subheadline",
-};
 
 
 export default function Home() {
@@ -31,17 +27,12 @@ export default function Home() {
         <div className="md:min-w-[65vh] min-w-full space-y-10">
           {/* Hero */}
           <section id="home" key="home" className="space-y-5">
-            <div className="text-2xl font-bold tracking-tight">
-              {marketingHeadlines.mainHeadline}
-            </div>
-            <div className="text-muted-foreground">
-              {marketingHeadlines.subHeadline}
-            </div>
+
             <div>
               <Separator />
             </div>
             <div className="flex justify-between">
-              <ActionButton actionText="Hire me" />
+              <ActionButton actionText="Draclyr" />
               <div className="space-y-1">
                 <h3 className="font-medium leading-none">
                   {aboutYou.yearsOfExperience}
@@ -65,7 +56,6 @@ export default function Home() {
                   />
                 ))}
               </div>
-              <p className="text-xs text-muted-foreground">Tech stack</p>
             </div>
           </section>
           {/* Projects */}
