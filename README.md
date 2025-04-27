@@ -1,5 +1,5 @@
 <h2>Draclyr-Portfolio Template</h2>
-<p>🧑🏻Professional resume website based on nextjs, typescript which is very useful for showing abilities and work experience and required information.</p>
+<p>🧑🏻A professional resume website built with "NextJS and TypeScript" designed to effectively showcase skills, work experience, and essential information.</p>
 
 ## Getting Started
 
@@ -18,13 +18,13 @@ npm run dev
 then Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 <br>
 
-<p>🎈A professional menu that has all the facilities needed for a website:</p>
+<p>🎈A fully equipped professional menu providing all essential functionalities required for a website:</p>
 <img src="./public/nav.png">
 <br>
-<p>🎆A separate, beautiful and professional section to display your projects:</p>
+<p>🎆A dedicated, elegantly designed, and highly professional section for showcasing your projects:</p>
 <img src="./public/project.png">
 <br>
-<p>👀In this section, you can enter your work history in addition to company information:</p>
+<p>👀In this section, you may enter your work history along with relevant company details, ensuring a comprehensive professional overview:</p>
 <img src="./public/work.png">
 <br>
-<p>And finally, I will be very happy if you rate the project❤️</p>
+<p>Finally, I would be delighted if you could rate the project❤️</p>
